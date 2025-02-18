@@ -3,6 +3,8 @@ import GithubLink from './GithubLink';
 import List from './List';
 
 function ProjectCard({ data }) {
+  console.log(data);
+
   return (
     <div className='project_box'>
       <GithubLink />

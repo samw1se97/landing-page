@@ -7,7 +7,7 @@ import { MdWhatsapp } from 'react-icons/md';
 import { FaGoogle } from 'react-icons/fa';
 import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 function App() {
-  // mySkills.map((skill) => console.log(skill));
+  mySkills.map((skill) => console.log(skill));
   return (
     <>
       <main className='container'>
@@ -33,7 +33,6 @@ function App() {
         <Separator />
 
         <article>
-          {/* <h2></h2> */}
           <h2 className='text_shdw name'>My Projects</h2>
           <div className='flex'>
             {myProjects &&
@@ -43,7 +42,7 @@ function App() {
 
         <Separator />
         <article>
-          <h2 className='text_shdw name'>Download my CV </h2>
+          <h2 className='text_shdw name'>Check out my Resume </h2>
           <CvBtn />
         </article>
         <Separator />
