@@ -1,8 +1,6 @@
 import React from 'react';
 
 function List({ list }) {
-  console.log(list);
-
   return (
     <ul>
       {list.map((skill) => (
@@ -10,7 +8,6 @@ function List({ list }) {
           {skill.name} {skill.icon && <skill.icon />}
         </li>
       ))}
-
     </ul>
   );
 }

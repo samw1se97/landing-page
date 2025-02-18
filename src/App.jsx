@@ -16,10 +16,13 @@ function App() {
             <span>Hi</span> i'm Sammy Miodownick
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores voluptatem mollitia tempora eius minima, laudantium odio
-            doloremque delectus ex magni accusantium in voluptas rem libero
-            laboriosam dolor. Eos, eveniet!
+            I'm a <span> Full Stack Web Developer </span> with experience in
+            developing dynamic web applications on both clientside and
+            server-side using a wide range of technologies. My experience
+            includes developing and maintaining seamless and userfriendly online
+            courses for private and public institutes. Adept at collaborating
+            with cross-functional teams to deliver highquality solutions that
+            meet and exceed client expectations.
           </p>
         </article>
 
