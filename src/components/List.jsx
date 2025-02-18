@@ -10,11 +10,7 @@ function List({ list }) {
           {skill.name} {skill.icon && <skill.icon />}
         </li>
       ))}
-      {/* {mySkills.map((skill) => (
-        <li className='stack_list'>
-          {skill.name} <skill.icon />
-        </li>
-      ))} */}
+
     </ul>
   );
 }
