@@ -25,7 +25,7 @@ h6 {
   color: #444;
 }
 
-article > h2 {
+section> h2 {
   text-align: center;
   color: #007bff;
 }

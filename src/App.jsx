@@ -6,12 +6,17 @@ import List from './components/List';
 import { MdWhatsapp } from 'react-icons/md';
 import { FaGoogle } from 'react-icons/fa';
 import { FaGithub, FaLinkedin } from 'react-icons/fa6';
+import Section from './components/Section';
+
+import projectsData from './data/projectsData.json';
 function App() {
-  mySkills.map((skill) => console.log(skill));
+  console.log(projectsData);
+
+  // mySkills.map((skill) => console.log(skill));
   return (
     <>
       <main className='container'>
-        <article style={{ textAlign: 'center' }}>
+        <Section>
           <h1 className='text_shdw' style={{ fontSize: '2rem' }}>
             <span>Hi</span> i'm Sammy Miodownick
           </h1>
@@ -24,33 +29,33 @@ function App() {
             with cross-functional teams to deliver highquality solutions that
             meet and exceed client expectations.
           </p>
-        </article>
+        </Section>
 
         <Separator />
 
-        <article className='stack_article'>
+        <Section className='stack_article'>
           <h2 className='text_shdw name'>My Stack</h2>
           <List list={mySkills} />
-        </article>
+        </Section>
 
         <Separator />
 
-        <article>
+        <Section>
           <h2 className='text_shdw name'>My Projects</h2>
           <div className='flex'>
             {myProjects &&
               myProjects.map((project) => <ProjectCard data={project} />)}
           </div>
-        </article>
+        </Section>
 
         <Separator />
-        <article>
+        <Section>
           <h2 className='text_shdw name'>Check out my Resume </h2>
           <CvBtn />
-        </article>
+        </Section>
         <Separator />
 
-        <article>
+        <Section>
           <h2 className='text_shdw name'>Contact me</h2>
           <ul className='contact_ul'>
             <li className='contact_li'>
@@ -78,7 +83,7 @@ function App() {
               </a>
             </li>
           </ul>
-        </article>
+        </Section>
       </main>
     </>
   );
